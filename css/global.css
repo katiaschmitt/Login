@@ -16,6 +16,11 @@ body {
     text-align: center;
   }
 
+  .divs{
+    display: flex;
+    gap: 15px;
+  }
+
   .login-box h2 {
     margin-bottom: 20px;
   }
