@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Cadastrar Novo Aluno</title>
+  <link rel="stylesheet" href="./css/global.css">
+</head>
+    <body>
+ 
+        <div class="box">
+            <h2>Cadastrar Novo Aluno</h2>
+            <input type="text" id="nome" placeholder="Nome completo" required>
+            <input type="number" id="idade" placeholder="Idade" required>
+            <input type="text" id="cep" placeholder="Cep" required>
+           
+            <button onclick="cadastrarAluno()">Cadastrar</button>
+ 
+            <button onclick="window.location.href='index.html'">Voltar</button>
+ 
+            <div id="mensagem" class="mensagem"></div>
+        </div>
+ 
+        <script src="./js/cadastrarAluno.js"></script>
+ 
+    </body>
+</html>
